@@ -1,4 +1,4 @@
-package com.cts.oup;
+package com.cts.oup.usermanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
