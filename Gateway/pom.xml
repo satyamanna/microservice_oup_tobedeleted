@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cts.oup</groupId>
-	<artifactId>platform-service1</artifactId>
+	<artifactId>gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>platform-service1</name>
+	<name>gateway</name>
 	<description>Application for oup platform  </description>
 
 	<properties>
@@ -60,6 +60,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul -->
+		<dependency>
+		    <groupId>org.springframework.cloud</groupId>
+		    <artifactId>spring-cloud-starter-zuul</artifactId>
+		    <version>1.4.7.RELEASE</version>
+		</dependency>
+		
 	</dependencies>
 
 	<dependencyManagement>

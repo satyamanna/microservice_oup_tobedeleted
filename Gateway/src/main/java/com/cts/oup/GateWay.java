@@ -5,11 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
+@Enablezu
 @SpringBootApplication
-public class PlatformService1Application {
+public class GateWay {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PlatformService1Application.class, args);
+		SpringApplication.run(GateWay.class, args);
 	}
 
 }
